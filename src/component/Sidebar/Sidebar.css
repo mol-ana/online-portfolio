@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+}
+
+.sider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#menu-wrapper {
+  padding: 0;
+  color: white;
+}
+
+.ant-menu-item,
+.ant-menu-item-active,
+.ant-menu-item-selected,
+.ant-menu-item-only-child {
+  padding: 0;
+}
+.ant-menu-item :hover {
+  color: #434343;
+}
+
+.menu-wrapper li:focus {
+  background-color: gray;
+  color: white;
+}
+.menu-wrapper .ant-menu-item-selected {
+  background-color: gray;
+  color: white;
+}
+
+.menu-wrapper .ant-menu-item-selected::after {
+  background-color: grey;
+  color: white;
+}
+.menu-wrapper .ant-menu-item-selected:hover {
+  /* background-color: grey; */
+  color: grey;
+}
+.menu-wrapper .ant-menu-item-selected::before {
+  background-color: gray;
+}
